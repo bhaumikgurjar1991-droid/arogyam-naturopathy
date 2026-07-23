@@ -227,3 +227,80 @@ section{
     color:#666;
 }
 }
+
+
+/* ===========================
+   GALLERY
+=========================== */
+
+.gallery{
+    background:#f8fff9;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.gallery-item img{
+    width:100%;
+    border-radius:15px;
+    transition:.4s;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+}
+
+.gallery-item img:hover{
+    transform:scale(1.05);
+}
+
+/* ===========================
+   TESTIMONIALS
+=========================== */
+
+.testimonials{
+    background:#ffffff;
+}
+
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.testimonial-card{
+    background:#f5fff7;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.testimonial-card h4{
+    color:#0b8a4b;
+    margin-top:15px;
+}
+
+/* ===========================
+   FAQ
+=========================== */
+
+.faq{
+    background:#f8fff9;
+}
+
+.faq-box{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.faq-box h3{
+    color:#0b8a4b;
+    margin-top:20px;
+}
+
+.faq-box p{
+    margin-top:10px;
+    color:#555;
+}
